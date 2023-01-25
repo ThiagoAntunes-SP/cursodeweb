@@ -1,0 +1,34 @@
+#home {
+	background: #ffc107;
+	color: white;
+}
+.caixa{
+	padding: 60px 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+footer p a{
+	margin: 5px 15px;
+}
+.icone-redes-sociais{
+	color: rgb(48, 150, 245);
+}
+.icone-redes-sociais:hover{
+	color: rgb(250, 250, 250);
+	background-color: #464646;
+}
+
+#menu-top{
+	color:rgb(83, 83, 83);
+}
+#menu-top:hover{
+	border-bottom: 1px solid orangered;
+	color:#fff;
+}
+.img-shadow:hover{
+	border-radius: 25px;
+	transition: .8s;
+	-webkit-box-shadow: 0px 10px 13px -7px #2b2b2b, 0px 40px 40px -30px rgba(0,0,0,0); 
+	box-shadow: 0px 10px 13px -7px #2b2b2b, 0px 40px 40px -30px rgba(0,0,0,0);
+}
+
+
