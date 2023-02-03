@@ -1,0 +1,175 @@
+/*
+* 
+* @author Jamilton Damasceno
+*/
+/* layout */
+html,
+body,
+#home {
+  /* ocupar 100% da area */
+  height: 100%;
+  /* esconder a barra horizontal  */
+  overflow-x: hidden;
+}
+
+body {
+  background-image: url("../imagens/capa.png"), url("../imagens/ruido.png"),
+    linear-gradient(50deg, #ff4169, #8a3df7c7);
+  background-attachment: fixed; /*imagem de fundo fixa*/
+  font-family: Helvetica, Arial, sans-serif;
+}
+/* Barra de navegação */
+nav.nav-transparent {
+  background: rgba(0, 0, 0, 0.6);
+}
+.navbar-expand-md .navbar-nav .nav-link {
+  color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #9bf0e1;
+}
+/* menu hamburguer */
+.navbar-light .navbar-toggler {
+  color: rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+/* divisor menu*/
+.divisor {
+  width: 1px;
+  background: white;
+  margin: 12px 15px;
+}
+nav a img:hover{
+  transition: 2s;
+  transform: scale(1.08);
+}
+.border-bottom-cutom:hover {
+  position: relative;
+  transform: scale(1.2);
+}
+
+/* capa */
+.capa {
+  text-align: center;
+  text-transform: capitalize;
+}
+/* botão   */
+.btn-custom {
+  color: white;
+  border-radius: 500px;
+  --webkit-border-radius: 500px;
+  --moz-border-radius: 500px;
+  text-transform: uppercase;
+  transition: background 0.4s, color 0.4s;
+  padding: 10px 15px;
+}
+.btn-roxo {
+  background: #7c75f8;
+  color: #fff;
+}
+.btn-roxo:hover {
+  background: #6207e3;
+  color: white;
+}
+.btn-branco {
+  border: 2px solid white;
+}
+.btn-branco:hover {
+  background-color: white;
+  color: black;
+}
+
+
+/* estrutura de conteudos   */
+.caixa {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#servicos {
+  background: white;
+}
+#servicos h2,
+h3 {
+  color: #6207e3;
+}
+#servicos .img-fluid:hover{
+  opacity: 80%;
+}
+.albuns {
+  padding: 10px 0;
+}
+#recursos h2 {
+  color: #fff;
+}
+#recursos h3 {
+  color: #9bf0e1;
+}
+#recursos p {
+  color: #fff;
+  font-weight: 100;
+}
+/* rotação de imagem  */
+.rotacionar {
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg);
+  padding-left: 80px;
+}
+/* rodapé */
+footer {
+  background: #000;
+  padding: 50px 0px 20px 0;
+  position: relative; /*sobrepor o conteudo de imagem*/
+}
+footer h4 {
+  color: #919496;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+footer .navbar-nav a {
+  color: #fff;
+}
+footer .navbar-nav a:hover {
+  text-decoration: none;
+  color: #9bf0e1;
+}
+footer ul {
+  list-style: none;
+}
+footer ul li {
+  float: right;
+  margin: 0 10px;
+}
+
+/* tipografia */
+h1 {
+  /* font-weight: 900; */
+  letter-spacing: -0.05rem;
+  margin-bottom: 50px;
+  color: #fff;
+}
+h2 {
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+h3 {
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+/*hover scale nos icones de redes sociais  */
+
+.icon-social-scale:hover{
+  transition: 1.5s;
+  transform: scale(1.05);
+  
+}
+footer .container .col-md-2 img:hover{
+  transition: 0.8s;
+  transform: scale(1.02);
+}
+
+
+
