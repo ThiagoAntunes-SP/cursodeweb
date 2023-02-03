@@ -564,11 +564,11 @@
 /* // Extra large devices (large desktops, 1440px and up) */
 @media (min-width: 1440px) and (max-width: 2559.98px) {
   #home .row .col-md-12 .at-container h1 {
-    font-size: 3.8em;
+    font-size: 3em;
     letter-spacing: 15px;
   }
   #home .row .col-md-12 .at-container .at-item h1 {
-    font-size: 2.8em;
+    font-size: 3em;
     letter-spacing: 15px;
   }
   .btn-custom {
@@ -580,10 +580,10 @@
     background: #fff;
   }
   #servicos h2 {
-    font-size: 3.5em;
+    font-size: 2.5em;
   }
   #servicos h3 {
-    font-size: 3.2em;
+    font-size: 1.8em;
   }
 
   .albuns {
@@ -625,68 +625,4 @@
     margin-left: 0;
   }
 }
-/* // Extra large devices (large desktops, 2560px) */
-@media (min-width: 2560px) {
-  .navbar-expand-md .navbar-nav .nav-link {
-    color: #fff;
-    font-size: 1.2em;
-}
-  #home .row .col-md-12 .at-container h1 {
-    font-size: 4em;
-    letter-spacing: 15px;
-  }
-  #home .row .col-md-12 .at-container .at-item h1 {
-    font-size: 2.2em;
-    font-weight: bold;
-    letter-spacing: 15px;
-  }
-  .btn-custom {
-    margin: 10px 15px;
-    padding: 10px 15px;
-    font-size: 25px;
-  }
-  #servicos {
-    background: #fff;
-  }
-  #servicos h2 {
-    font-size: 3.5em;
-  }
-  #servicos h3 {
-    font-size: 3.2em;
-  }
-  #recursos h2 {
-    font-size: 3em;
-  }
-  #recursos h3 {
-    font-size: 3em;
-  }
 
-  #recursos .col-md-8 .img-fluid {
-    width: 65%;
-    display: flex;
-    transform: rotate(325deg);
-    margin-left: 60%;
-  }
-  footer .container .col-md-2 .img-fluid {
-    width: 175px;
-    margin-left: 0;
-  }
-  footer .container .col {
-    margin: 25px auto;
-    margin-top: 25px;
-    margin-bottom: 25px;
-  }
-  footer .container .col-md-4 {
-    float: right;
-  }
-  #recursos .col-md-8 .img-fluid {
-    width: 60%;
-    display: flex;
-    transform: rotate(305deg);
-    margin-left: 25%;
-    margin-top: 6em;
-  }
-  footer .container .col-md-2 .img-fluid {
-    margin-left: 0;
-  }
-}
